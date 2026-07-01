@@ -152,6 +152,8 @@ section{
 
 .main-container .image img{
     width: 100%;
+    max-width: 250px;
+    height: auto;
 }
 
 .main-container .content{
