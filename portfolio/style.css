@@ -205,10 +205,10 @@ section{
 
 @keyframes words {
     0%, 33%{
-        content: "Developer";
+        content: "Data Analyst";
     }
     34%, 66%{
-        content: "Data Analyst";
+        content: "Developer";
     }
     67%, 100%{
         content: "Tech Enthusiast";
