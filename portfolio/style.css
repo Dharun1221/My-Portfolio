@@ -152,6 +152,7 @@ section{
 
 .main-container .image img{
     width: 100%;
+    padding: 200px;
 }
 
 .main-container .content{
