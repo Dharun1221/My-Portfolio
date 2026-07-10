@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
+
 <body>
     <nav>
         <div class="nav-container">
@@ -40,42 +42,48 @@
             </div>
         </div>
     </nav>
-        <section>
-            <div class="main-container">
-                <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
-                    <img src="Home Pro Pic.jpg" alt="Photo of Dharunraj">
+    <section>
+        <div class="main-container">
+            <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+                <img src="Home Pro Pic.jpg" alt="Photo of Dharunraj">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey, I'm <span>Dharunraj</span>! 👋</h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">I'm a <span></span></div>
+                <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">Electronics and Communication Engineering student with a passion for building cool things! I love turning ideas into reality through code and circuits. Whether it's crafting Full-Stack web apps, building IoT projects, or exploring AI,
+                    I'm always excited to learn and create. Let me help you build something awesome! 🚀</p>
+                <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                    <a href="https://github.com/Dharun1221"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://leetcode.com/u/quiV3Visnp/"><i class="fa-brands fa-leetcode"></i></a>
+                    <a href="https://www.hackerrank.com/profile/dharun_caf"><i class="fa-brands fa-hackerrank"></i></a>
+                    <a href="https://www.linkedin.com/in/dharunraj1221/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com/DharunRaj32569"><i class="fa-brands fa-x-twitter"></i></a>
                 </div>
-                <div class="content">
-                    <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey, I'm <span>Dharunraj</span>! 👋</h1>
-                    <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">I'm a <span></span></div>
-                    <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">Electronics and Communication Engineering student with a passion for building cool things! I love turning ideas into reality through code and circuits. Whether it's crafting Full-Stack web apps, building IoT projects, or exploring AI, I'm always excited to learn and create. Let me help you build something awesome! 🚀</p>
-                    <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
-                        <a href="https://github.com/Dharun1221" ><i class="fa-brands fa-github"></i></a>
-                        <a href="https://www.hackerrank.com/profile/dharun_caf" ><i class="fa-brands fa-hackerrank"></i></a>
-                        <a href="https://www.linkedin.com/in/dharunraj1221/" ><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://x.com/DharunRaj32569" ><i class="fa-brands fa-x-twitter"></i></a>
-                    </div>
-                    <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
-                        <a href="https://drive.google.com/drive/folders/1QKmg7MbTI_C8XIpgb6xhYvDgjZt4eSK4" target="_blank" rel="noopener noreferrer">
-                            <button>Download CV</button>
-                        </a>
-                    </div>
+                <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+                    <a href="https://drive.google.com/drive/folders/1QKmg7MbTI_C8XIpgb6xhYvDgjZt4eSK4" target="_blank" rel="noopener noreferrer">
+                        <button>Download CV</button>
+                    </a>
                 </div>
             </div>
-        </section>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-          AOS.init({offset:0});
-        </script>
-        <script>
-            function hamburg(){
-                const navbar = document.querySelector(".dropdown")
-                navbar.style.transform = "translateY(0px)"
-            }
-            function cancel(){
-                const navbar = document.querySelector(".dropdown")
-                navbar.style.transform = "translateY(-500px)"
-            }
-        </script>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 0
+        });
+    </script>
+    <script>
+        function hamburg() {
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(0px)"
+        }
+
+        function cancel() {
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(-500px)"
+        }
+    </script>
 </body>
+
 </html>
